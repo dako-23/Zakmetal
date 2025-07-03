@@ -9,3 +9,7 @@ body {
 body>* {
     width: 100%;
 }
+
+.inner {
+    max-width: 1860px;
+}
