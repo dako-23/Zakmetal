@@ -1,0 +1,46 @@
+.section-for-you {
+        .inner {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3em;
+            max-width: 60%;
+            margin: 0 auto;
+            margin-top: 3em;
+            margin-bottom: 3em;
+        }
+
+        .content {
+            flex: 1 1 300px;
+            display: flex;
+            gap: 2em;
+        }
+
+        span {
+            display: flex;
+            background-color: #F4F5F5;
+            padding: 0 1em 0 1em;
+            max-width: 180px;
+            align-items: center;
+            justify-content: center;
+            font-size: 6em;
+            border-radius: 0.2em;
+        }
+
+        h3 {
+            margin-bottom: 0.5em;
+            color: #444;
+            max-width: 15ch;
+        }
+
+        p {
+            margin-bottom: 0.2em;
+            font-size: 1.2em;
+            color: #99BF38;
+        }
+
+        p+p {
+            font-size: 0.9em;
+            color: #444;
+        }
+
+    }

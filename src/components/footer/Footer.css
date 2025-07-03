@@ -1,0 +1,101 @@
+.section-footer {
+        position: relative;
+        background: #31353D;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #444;
+        }
+
+        .inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #b3b3b3;
+
+            .table {
+                padding-bottom: 3em;
+
+                li {
+                    display: block;
+                    margin-top: 0.5em;
+                }
+
+                li a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: inherit;
+                    font-size: 1em;
+                    opacity: 0.9;
+
+                    &:hover {
+                        color: #99BF38;
+                        opacity: 1;
+                    }
+                }
+
+                &.footer-info {
+                    li {
+                        color: #99BF38;
+                    }
+                }
+
+                h3 {
+                    margin-top: 3em;
+                    color: #fff;
+                }
+
+                p {
+                    margin-top: 0.5em;
+                    max-width: 37ch;
+                    font-size: 0.9em;
+                    opacity: 0.9;
+                }
+
+                img {
+                    background-color: #fff;
+                    padding: 0.2em;
+                    border-radius: 0.3em;
+                    margin-top: 3.5em;
+                    display: block;
+                    max-width: 240px;
+                    height: auto;
+                }
+
+
+
+            }
+        }
+
+        .secondary-inner {
+
+            &:before {
+                content: "";
+                display: block;
+                width: 98%;
+                margin: 0 auto;
+                height: 0.8px;
+                background: #ccc;
+                opacity: 0.4;
+            }
+
+            p {
+                padding: 1em;
+                color: #b3b3b3;
+                font-size: 0.9em;
+                text-align: center;
+                opacity: 0.7;
+            }
+
+        }
+
+    }
+
+    
