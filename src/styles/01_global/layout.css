@@ -1,0 +1,11 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    font: 16px/1.5 'Inter', sans-serif;
+}
+
+body>* {
+    width: 100%;
+}

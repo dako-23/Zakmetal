@@ -1,0 +1,131 @@
+@media(width <=654px) {
+
+    .section {
+        &.section-header {
+            .inner {
+                flex-direction: column;
+            }
+
+            nav ul a {
+                font-size: 1.2em;
+            }
+        }
+
+        &.section-banner {
+            & .inner {
+                h2 {
+                    font-size: 1.5em;
+                }
+            }
+        }
+
+        &.section-contact {
+
+            h2 {
+                font-size: 2em;
+            }
+
+            .content {
+                flex-direction: column;
+                gap: 2em;
+                width: 100%;
+            }
+
+            .form {
+                flex-direction: column;
+
+                .submit-btn {
+                    margin-top: 1em;
+                    padding: 1em;
+                }
+            }
+        }
+
+        &.section-footer {
+            .inner {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 2em;
+
+                .table {
+                    padding-bottom: 0;
+                }
+
+                .table img {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media(width > 654px) and (width <=920px) {
+
+    .section {
+        &.section-header {
+            .inner {
+                flex-direction: column;
+            }
+
+            nav ul {
+                gap: 5em;
+            }
+
+            nav ul a {
+                font-size: 1.2em;
+            }
+        }
+
+        &.section-banner {
+            & .inner {
+                h2 {
+                    font-size: 2em;
+                }
+            }
+        }
+
+        &.section-footer {
+            .inner {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                .table img {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media(width > 654px) and (width <=1500px) {
+    .section {
+
+        &.section-contact {
+
+            .content {
+                width: 70% !important;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            .content {
+                flex-direction: column;
+                gap: 2em;
+                width: 100%;
+            }
+
+            .form {
+                flex-direction: column;
+
+                .submit-btn {
+                    margin-top: 1em;
+                    padding: 1em;
+                }
+            }
+        }
+    }
+}
