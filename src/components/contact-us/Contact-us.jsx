@@ -2,7 +2,7 @@ import './Contact-us.css'
 
 export default function ContactUs() {
     return (
-        <section className="section section-contact">
+        <section id='kontakti' className="section section-contact">
             <div className="inner">
                 <div className="content">
                     <h2>ВЗЕМИ ОФЕРТА БЪРЗО И ЛЕСНО</h2>

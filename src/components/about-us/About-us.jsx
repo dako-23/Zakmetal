@@ -2,7 +2,7 @@ import './About-us.css'
 
 export default function AboutUs() {
     return (
-        <section className="section section-about">
+        <section id='za-nas' className="section section-about">
             <div className="inner">
                 <div className="about-image">
                 </div>

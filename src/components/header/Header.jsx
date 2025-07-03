@@ -1,4 +1,5 @@
 import './Header.css';
+import { scrollWithOffset } from '../../helpers/scrollWithOffset.js';
 
 export default function Header() {
     return (
@@ -13,10 +14,10 @@ export default function Header() {
 
                 <nav>
                     <ul>
-                        <li><a href="#top" className="underline">Начало</a></li>
-                        <li><a href="#za-nas" className="underline">За нас</a></li>
-                        <li><a href="#uslugi" className="underline">Услуги</a></li>
-                        <li><a href="#kontakti" className="underline">Контакти</a></li>
+                        <li><a href="#top" onClick={(e) => scrollWithOffset(e, 'top', -100)} className="underline">Начало</a></li>
+                        <li><a href="#za-nas" onClick={(e) => scrollWithOffset(e, 'za-nas', -150)} className="underline">За нас</a></li>
+                        <li><a href="#uslugi" onClick={(e) => scrollWithOffset(e, 'uslugi', -120)} className="underline">Услуги</a></li>
+                        <li><a href="#kontakti" onClick={(e) => scrollWithOffset(e, 'kontakti', -220)} className="underline">Контакти</a></li>
                     </ul>
                 </nav>
             </div>

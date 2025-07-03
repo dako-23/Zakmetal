@@ -5,6 +5,7 @@ import ContactUs from "./components/contact-us/Contact-us.jsx";
 import AboutUs from "./components/about-us/About-us.jsx";
 import ForYou from "./components/for-you/For-you.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import ScrollToTop from "./helpers/scrollToTop.js";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Header />} />
         </Routes>
