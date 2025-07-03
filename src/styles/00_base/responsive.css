@@ -7,14 +7,17 @@
             }
 
             nav ul a {
-                font-size: 1.2em;
+                font-size: 0.8em;
             }
         }
 
         &.section-banner {
             & .inner {
                 h2 {
-                    font-size: 1.5em;
+                    font-size: 0.9em;
+                }
+                .button {
+                    font-size: 0.7em;
                 }
             }
         }
@@ -38,6 +41,12 @@
                     margin-top: 1em;
                     padding: 1em;
                 }
+            }
+        }
+
+        &.section-for-you {
+            .content {
+                flex-direction: column;
             }
         }
 
