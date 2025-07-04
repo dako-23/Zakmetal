@@ -16,8 +16,8 @@ export default function Header() {
                     <ul>
                         <li><a href="#top" onClick={(e) => scrollWithOffset(e, 'top', -100)} className="underline">Начало</a></li>
                         <li><a href="#za-nas" onClick={(e) => scrollWithOffset(e, 'za-nas', -150)} className="underline">За нас</a></li>
-                        <li><a href="#uslugi" onClick={(e) => scrollWithOffset(e, 'uslugi', -120)} className="underline">Услуги</a></li>
-                        <li><a href="#kontakti" onClick={(e) => scrollWithOffset(e, 'kontakti', -220)} className="underline">Контакти</a></li>
+                        <li><a href="#uslugi" onClick={(e) => scrollWithOffset(e, 'uslugi', -200)} className="underline">Услуги</a></li>
+                        <li><a href="#kontakti" onClick={(e) => scrollWithOffset(e, 'kontakti', -230)} className="underline">Контакти</a></li>
                     </ul>
                 </nav>
             </div>
