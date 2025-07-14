@@ -1,14 +1,15 @@
 import './Header.css';
+import { FaPhoneVolume } from "react-icons/fa";
 import { scrollWithOffset } from '../../helpers/scrollWithOffset.js';
 
 export default function Header() {
     return (
         <header className="section section-header">
             <div className="inner">
-                <a href="#" className="site-logo"><img src="/ZAKMETAL.png.png" alt="picture"/></a>
+                <a href="#" className="site-logo"><img src="/ZAKMETAL.png.png" alt="picture" /></a>
                 <a href="tel:+359876771557" className="contact">
                     <span className="pulse">
-                        ☎ 0876 771 557
+                        <FaPhoneVolume size={18} /> 0876 771 557
                     </span>
                 </a>
 
