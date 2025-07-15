@@ -52,10 +52,10 @@
         color: #99BF38;
         transition: color 0.3s ease-in-out;
 
-        .pulse {
+        /* .pulse {
             display: inline-block;
             animation: pulse 1.5s ease-in-out infinite;
-        }
+        } */
 
 
         &:hover {

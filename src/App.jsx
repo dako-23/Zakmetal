@@ -6,6 +6,7 @@ import AboutUs from "./components/about-us/About-us.jsx";
 import ForYou from "./components/for-you/For-you.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import ScrollToTop from "./helpers/scrollToTop.js";
+import ContactButtons from "./components/floating-buttons/Contact-buttons.jsx";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <AboutUs />
         <ForYou />
         <Footer />
+        <ContactButtons />
       </Router>
     </>
   )
