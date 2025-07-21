@@ -13,7 +13,7 @@ export default function PhoneButton() {
                     <FaPhone size={26} />
                 </a>
                 <div className="info-bubble phone">
-                    <strong>Тел.</strong><br />
+                    <strong>Връзка с нас</strong><br />
                     0876 771 557
                 </div>
             </div>
