@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <header className="section section-header">
             <div className="inner">
-                <a href="#top" onClick={scrollToTop} className="site-logo"><img src="/ZAKMETAL.png.png" alt="picture" /></a>
+                <a href="/" onClick={scrollToTop} className="site-logo"><img src="/ZAKMETAL.png.png" alt="picture" /></a>
                 <a href="tel:+359876771557" className="contact">
                     <span className="pulse">
                         <FaPhoneVolume size={18} /> 0876 771 557
