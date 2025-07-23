@@ -6,6 +6,7 @@ import AboutUs from '../about-us/About-us.jsx';
 import ForYou from '../for-you/For-you.jsx';
 import Footer from '../footer/Footer.jsx';
 import useAnimations from '../../hooks/useAnimations.js';
+import Header from '../header/Header.jsx';
 
 
 export default function HomePage() {
@@ -20,6 +21,7 @@ export default function HomePage() {
                 url="https://zakmetal.com/"
                 image="https://res.cloudinary.com/dsdyzbyvy/image/upload/v1753194526/about_tojgec.avif"
             />
+            <Header />
             <motion.div
                 variants={bannerVariants}
                 initial="hidden"
@@ -28,35 +30,32 @@ export default function HomePage() {
             >
                 <Banner />
             </motion.div>
-            <div className='bg-main min-h-screen overflow-hidden pb-20'>
-                <div className="container mx-auto px-4">
-                    <motion.div
-                        variants={contactVariants}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}
-                    >
-                        <ContactUs />
-                    </motion.div>
-                    <motion.div
-                        variants={aboutVariants}
-                        className="motion-wrapper"
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}
-                    >
-                        <AboutUs />
-                    </motion.div>
-                    <motion.div
-                        variants={forYouContainer}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}
-                    >
-                        <ForYou />
-                    </motion.div>
-                </div>
-            </div>
+            <motion.div
+                variants={contactVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+            >
+                <ContactUs />
+            </motion.div>
+            <motion.div
+                variants={aboutVariants}
+                className="motion-wrapper"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+            >
+                <AboutUs />
+            </motion.div>
+            <motion.div
+                variants={forYouContainer}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+            >
+                <ForYou />
+            </motion.div>
+            <Footer />
         </>
     );
 }

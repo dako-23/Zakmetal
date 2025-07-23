@@ -35,7 +35,7 @@ export default function useAnimations() {
         visible: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.2,
+                staggerChildren: 0.4,
                 delayChildren: 0.3
             }
         }
