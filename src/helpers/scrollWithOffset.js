@@ -5,5 +5,7 @@ export function scrollWithOffset(e, id, offset) {
 
     const y = el.getBoundingClientRect().top + window.pageYOffset + offset;
 
+    history.pushState(null, '', `#${id}`)
+
     window.scrollTo({ top: y, behavior: 'smooth' });
 }
